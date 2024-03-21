@@ -1,8 +1,6 @@
-import 'package:floor/floor.dart';
 import '../../../../core/constants/constants.dart';
 import '../../domain/entities/article.dart';
 
-@Entity(tableName: 'article',primaryKeys: ['id'])
 class ArticleModel extends ArticleEntity {
   const ArticleModel({
     int ? id,
